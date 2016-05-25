@@ -1,0 +1,2 @@
+git -10000 clone https://chromium.googlesource.com/chromium/src
+git log --since="04-11-2016" --until="05-11-2016" --pretty=format:"%H^*^%an^*^%cd" --name-status > son.txt
